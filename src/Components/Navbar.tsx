@@ -1,7 +1,6 @@
 import Amazon_Logo from "../assets/Amazon_Logo.png";
 import flag from "../assets//fe2UeLQmJ11kKHN.png";
 
-
 const Navbar = () => {
   return (
     <div className="bg-[#131921] text-white flex justify-center gap-6 p-2">
