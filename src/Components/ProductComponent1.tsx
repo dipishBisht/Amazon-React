@@ -2,7 +2,7 @@ import { productList1 } from "../Utils/Utilities";
 
 const ProductComponent1 = () => {
   return (
-    <div className="bg-[#e3e6e6]">
+    <div>
       <div className="flex relative justify-between px-5 z-20 gap-4">
         {productList1.map((val, ind) => {
           return (
