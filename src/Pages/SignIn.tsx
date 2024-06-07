@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar";
 import ProductComponent1 from "../Components/ProductComponent1";
 import ProductComponent2 from "../Components/ProductComponent2";
 import HomeData from "../Components/HomeData";
+import { GroceryImgs, homeData, homeData2 } from "../Utils/Utilities";
 import {
   electricImgs,
   kitchenImgs,
@@ -11,6 +12,8 @@ import {
   clothing,
 } from "../Utils/Utilities";
 import VideoComponent from "../Components/VideoComponent";
+import SignInButton from "../Components/SignInButton";
+import Footer from "../Components/Footer";
 
 const SignIn = () => {
   return (
@@ -21,10 +24,14 @@ const SignIn = () => {
       <ProductComponent2 />
       <CommonSlider arrayName={electricImgs} />
       <CommonSlider arrayName={kitchenImgs} />
-      <HomeData />
+      <HomeData myArray={homeData} />
       <CommonSlider arrayName={trends} />
       <CommonSlider arrayName={clothing} />
       <VideoComponent />
+      <HomeData myArray={homeData2} />
+      <CommonSlider arrayName={GroceryImgs} />
+      <SignInButton />
+      <Footer />
     </div>
   );
 };
