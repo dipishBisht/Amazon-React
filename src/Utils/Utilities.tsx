@@ -56,7 +56,6 @@ import Electric23 from "../assets/Electric-23.jpg";
 import Electric24 from "../assets/Electric-24.jpg";
 import Kitchen1 from "../assets/Kitchen-1.jpg";
 import Kitchen2 from "../assets/Kitchen-2.jpg";
-import Kitchen3 from "../assets/Kitchen-3.jpg";
 import Kitchen4 from "../assets/Kitchen-4.jpg";
 import Kitchen5 from "../assets/Kitchen-5.jpg";
 import Kitchen6 from "../assets/Kitchen-6.jpg";
@@ -130,6 +129,32 @@ import Clothing18 from "../assets/Clothing-18.jpg";
 import Clothing19 from "../assets/Clothing-19.jpg";
 import Clothing20 from "../assets/Clothing-20.jpg";
 import VideoImage from "../assets/home-video.jpeg";
+import HomeDataa from "../assets/HomeData2-1.jpg";
+import HomeDatab from "../assets/HomeData2-2.jpg";
+import HomeDatac from "../assets/HomeData2-3.jpg";
+import HomeDatad from "../assets/HomeData2-4.jpg";
+import HomeDatae from "../assets/HomeData2-5.jpg";
+import HomeDataf from "../assets/HomeData2-6.jpg";
+import HomeDatag from "../assets/HomeData2-7.jpg";
+import Grocery1 from "../assets/Grocery-1.jpg";
+import Grocery2 from "../assets/Grocery-2.jpg";
+import Grocery3 from "../assets/Grocery-3.jpg";
+import Grocery4 from "../assets/Grocery-4.jpg";
+import Grocery5 from "../assets/Grocery-5.jpg";
+import Grocery6 from "../assets/Grocery-6.jpg";
+import Grocery7 from "../assets/Grocery-7.jpg";
+import Grocery8 from "../assets/Grocery-8.jpg";
+import Grocery9 from "../assets/Grocery-9.jpg";
+import Grocery10 from "../assets/Grocery-10.jpg";
+import Grocery11 from "../assets/Grocery-11.jpg";
+import Grocery12 from "../assets/Grocery-12.jpg";
+import Grocery13 from "../assets/Grocery-13.jpg";
+import Grocery14 from "../assets/Grocery-14.jpg";
+import Grocery15 from "../assets/Grocery-15.jpg";
+import Grocery16 from "../assets/Grocery-16.jpg";
+import Grocery17 from "../assets/Grocery-17.jpg";
+import Grocery18 from "../assets/Grocery-18.jpg";
+import Grocery19 from "../assets/Grocery-19.jpg";
 
 export const options: string[] = [
   "All",
@@ -419,7 +444,6 @@ export const kitchenImgs = [
     imgs: [
       Kitchen1,
       Kitchen2,
-      Kitchen3,
       Kitchen4,
       Kitchen5,
       Kitchen6,
@@ -523,3 +547,49 @@ export const clothing = [
 ];
 
 export const videoImg = VideoImage;
+
+export const homeData2 = [
+  {
+    title: "One stop shop for all your wedding shopping",
+    images: [HomeDataa, HomeDatab, HomeDatac, HomeDatad],
+  },
+  {
+    title: "Min. 30% off | Top deals in home decor products…",
+    images: [HomeDatae],
+  },
+  {
+    title: "Jamnapaar | Streaming Now",
+    images: [HomeDataf],
+  },
+  {
+    title: "Deals on furniture & home essentials from st…",
+    images: [HomeDatag],
+  },
+];
+
+export const GroceryImgs = [
+  {
+    title: "Best Sellers in Grocery & Gourmet Foods",
+    imgs: [
+      Grocery1,
+      Grocery2,
+      Grocery3,
+      Grocery4,
+      Grocery5,
+      Grocery6,
+      Grocery7,
+      Grocery8,
+      Grocery9,
+      Grocery10,
+      Grocery11,
+      Grocery12,
+      Grocery13,
+      Grocery14,
+      Grocery15,
+      Grocery16,
+      Grocery17,
+      Grocery18,
+      Grocery19,
+    ],
+  },
+];
