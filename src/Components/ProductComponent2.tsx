@@ -3,7 +3,7 @@ import { productList2 } from "../Utils/Utilities";
 const ProductComponent2 = () => {
   return (
     <div className="my-5">
-      <div className="flex relative justify-between px-5 z-20 gap-4 flex-wrap">
+      <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 gap-4 relative px-5 z-20 lg:justify-between lg:flex">
         {productList2.map((val, ind) => {
           return (
             <div

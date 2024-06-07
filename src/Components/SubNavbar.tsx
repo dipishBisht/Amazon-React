@@ -1,6 +1,7 @@
 import { subNavbarList } from "../Utils/Utilities";
 
 const SubNavbar = () => {
+
   return (
     <div className="text-white bg-[#232f3e] py-2 pl-3">
       <div className="flex justify-between w-11/12 text-sm gap-1">
@@ -23,8 +24,8 @@ const SubNavbar = () => {
                 </span>
                 <span>{val}</span>
               </section>
-            ) : (
-              <span>{val}</span>
+            ) : ( 
+              <span className="hidden lg:block" >{val}</span>
             )}
           </h1>
         ))}

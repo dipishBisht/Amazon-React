@@ -4,7 +4,7 @@ import flag from "../assets//fe2UeLQmJ11kKHN.png";
 const Footer = () => {
   return (
     <footer className="bg-[#232F3E] text-white flex flex-col gap-10 py-8">
-      <div className="flex max-w-[1000px] w-full mx-auto justify-between flex-wrap">
+      <div className="grid gap-8 pl-4 sm:grid-cols-2 lg:grid-cols-4 max-w-[1000px] w-full mx-auto lg:flex lg:justify-between">
         <div className="flex flex-col gap-4">
           <h2 className="text-xl font-bold">Get to Know Us</h2>
           <ul className="flex flex-col gap-1 text-[#ddd]">

@@ -1,17 +1,16 @@
 const HomeCommonSection = ({ title, images }: { title: string; images: string[] }) => {
     return (
-      <div className="flex flex-col justify-between gap-4 my-5 mx-0 bg-white py-4 px-5 w-[500px]">
+      <div className="flex flex-col justify-between gap-4 w-[95%] mx-auto md:w-fit bg-white py-4 px-5 h-full">
         <h2 className="text-xl font-bold max-w-[250px]">{title}</h2>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex gap-2">
           {images.length === 1 ? (
-            <img src={images[0]} className="w-full h-auto" />
+            <img src={images[0]} className="w-full h-[245px] object-contain" />
           ) : (
             <div className="grid grid-cols-2 gap-2">
               {images.map((image: any, index: any) => (
                 <img
                   key={index}
                   src={image}
-                  alt={`Home ${index}`}
                   className="w-[120px] h-[120px] object-contain"
                 />
               ))}
