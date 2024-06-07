@@ -1,6 +1,6 @@
 const HomeCommonSection = ({ title, images }: { title: string; images: string[] }) => {
     return (
-      <div className="flex flex-col gap-4 my-5 mx-0 bg-white py-4 px-5">
+      <div className="flex flex-col justify-between gap-4 my-5 mx-0 bg-white py-4 px-5 w-[500px]">
         <h2 className="text-xl font-bold max-w-[250px]">{title}</h2>
         <div className="flex flex-wrap gap-2">
           {images.length === 1 ? (

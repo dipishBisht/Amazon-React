@@ -3,7 +3,7 @@ import { productList1 } from "../Utils/Utilities";
 const ProductComponent1 = () => {
   return (
     <div>
-      <div className="flex relative justify-between px-5 z-20 gap-4">
+      <div className="flex relative justify-between px-5 z-20 gap-4 flex-wrap">
         {productList1.map((val, ind) => {
           return (
             <div
