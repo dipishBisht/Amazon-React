@@ -1,0 +1,30 @@
+@media (max-width:850px) {
+    .footer-upper{
+        flex-direction: column;
+    }
+
+    .footer-upper-top{
+        border: none;
+    }
+
+    .footer-upper-top h1{
+        font-size: 32px;
+    }
+}
+
+@media (max-width:500px) {
+    
+    .footer-upper-top h1{
+        font-size: 28px;
+    }
+
+    .footer-upper-bottom{
+        flex-direction: column;
+    }
+
+    .footer-upper-top p,
+    .footer-ul,
+    .footer-lower{
+        font-size: 15px;
+    }
+}
