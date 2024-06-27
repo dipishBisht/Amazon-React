@@ -13,12 +13,12 @@ import {
 } from "../Utils/Utilities";
 import VideoComponent from "../Components/VideoComponent";
 import SignInButton from "../Components/SignInButton";
-import Footer from "../Components/Footer";
+import Footer from "../Components/Footer.jsx";
 
 const SignIn = () => {
   return (
     <div className="bg-[#e3e6e6]">
-      <Navbar />
+      {/* <Navbar />
       <HomeSlider />
       <ProductComponent1 />
       <ProductComponent2 />
@@ -30,7 +30,7 @@ const SignIn = () => {
       <VideoComponent />
       <HomeData myArray={homeData2} />
       <CommonSlider arrayName={GroceryImgs} />
-      <SignInButton />
+      <SignInButton /> */}
       <Footer />
     </div>
   );
